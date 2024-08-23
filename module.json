@@ -96,5 +96,6 @@
       "system": "cain"
     }
   ],
-  "manifest": ""
+  "manifest": "https://raw.githubusercontent.com/diabeatz96/homebrew-cain/main/module.json",
+  "download": "https://github.com/diabeatz96/homebrew-cain/releases/latest/download/homebrew-cain.zip"
 }
