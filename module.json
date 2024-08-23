@@ -1,0 +1,100 @@
+{
+  "id": "homebrew-cain",
+  "title": "Homebrew cain",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "description": "This module is designed to encapsulate all home-brew content for the CAIN ttrpg system  created by Tom Bloom, and is made specifically for the cain foundry vtt system created by Adam Kostandy.",
+  "authors": [
+    {
+      "name": "Adam Kostandy",
+      "email": "adamkostandy@gmail.com",
+      "url": "https://github.com/diabeatz96/cain",
+      "discord": "adamkostandy",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/diabeatz96/cain",
+  "packs": [
+    {
+      "name": "exorcists",
+      "label": "Exorcists",
+      "path": "packs/exorcists",
+      "type": "Actor",
+      "system": "cain",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-sins",
+      "label": "Homebrew Sins",
+      "path": "packs/homebrew-sins",
+      "type": "Actor",
+      "system": "cain",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-blasphemies",
+      "label": "Homebrew  Blasphemies",
+      "path": "packs/homebrew-blasphemies",
+      "type": "Item",
+      "system": "cain",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-agendas",
+      "label": "Homebrew  Agendas",
+      "path": "packs/homebrew-agendas",
+      "type": "Item",
+      "system": "cain",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mundane-npcs",
+      "label": "Homebrew  Mundane NPCs",
+      "path": "packs/mundane-npcs",
+      "type": "Actor",
+      "system": "cain",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-investigations",
+      "label": "Homebrew  Investigations",
+      "path": "packs/homebrew-investigations",
+      "type": "Adventure",
+      "system": "cain",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-pdfs",
+      "label": "Homebrew pdfs",
+      "path": "packs/homebrew-pdfs",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cain"
+    }
+  ],
+  "manifest": ""
+}
